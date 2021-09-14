@@ -1,6 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 body {
   overflow-x: hidden;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+  background-color: #e5e5e5;
+}
+.neo {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: #e5e5e5;
+  -webkit-box-shadow: 12px 12px 24px #c3c3c5, -12px -12px 24px #ffffff;
+  box-shadow: 12px 12px 24px #c3c3c5, -12px -12px 24px #ffffff;
+}
+.col {
+  transition: transform 0.5s;
+}
+.col:hover {
+  transform: scale(1.05);
 }
 .search-field {
   border: none;
@@ -32,7 +47,7 @@ body {
   text-align: center;
   width: 100%;
   margin: auto;
-  align-items: center;
+
   justify-content: center;
 }
 .single-product {
